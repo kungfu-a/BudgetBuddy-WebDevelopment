@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<link rel="icon" type="images/x-icon" href="styles/images/whitelogo.png">
+
+		<link rel="stylesheet" href="styles/signupstyle.css">
+
+		<title>Budget Buddy - Sign up</title>
+
+	</head>
+
+	<body>
+		<!-- Register Panel -->
+
+		<div class="panel" id="panel">
+
+			<div class="form-panel log-in-panel">
+
+				<!-- Forms -->
+
+				<form action="insert.php" method="post" onsubmit="accountCreated()">
+					<h2>Sign Up Page</h2>
+
+					<input type="text" placeholder="Preferred Username" name="username" required>
+					<input type="text" placeholder="Full Name" name="fname" required>
+					<input type="email" placeholder="Email" name="email" required>
+					<input type="password" placeholder="Password" name="password" minlength="8" onkeypress="return event.charCode != 32" required title="Password must contain at least 8 characters long and spaces are not allowed">				
+
+					<a href="loginpage.html">
+						<span id="GoToLogin">Already have an account? Log-in here</span>
+					</a>
+
+					<input id ='submit' type='submit' name='submit' value='CREATE ACCOUNT'> 					
+				</form>
+			</div>
+
+			<!-- Cover Panel -->
+
+			<div class="cover-panel">
+
+				<div class="cover">
+					<div class="description-panel cover-right">
+						<h2>BUDGET BUDDY</h2>
+						<img id=whitelogo src="styles/images/whitelogo.png" alt="">
+						<p>"Your Budget, Your Future, Your Plan"</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<script>
+			function accountCreated(){
+				alert("You have successfully created an account!");				
+			}
+		</script>
+	</body>
+</html>

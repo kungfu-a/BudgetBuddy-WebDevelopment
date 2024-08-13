@@ -1,0 +1,437 @@
+*{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: "Montserrat", "Helvetica Neue", Arial, sans-serif;
+
+    background-image: url('images/seb/greenbg.png');
+    background-repeat: no-repeat; 
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* -----SECTION DIVS----- */
+section{
+    border: none;
+    border-radius: 10px;
+    box-shadow:3px 3px 10px rgba(0, 0, 0, 0.8);
+    padding: 20px;  
+
+    margin-bottom: 0;
+
+    background-color: rgba(173, 212, 129, 0.4);    
+}
+
+/* -----navigation bar----- */
+.navbar{    
+    position: fixed;
+    background-color: rgb(55,140,63);
+    top: 0;
+    left: 0;
+    right: 0;  
+    height: 60px;
+    
+    color: white;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    font-weight: bold;
+}
+
+nav p{
+    display: inline-block;
+}
+
+nav li{
+    display: inline-block; 
+    list-style: none;  
+    text-align: right; 
+    margin-right: 30px;       
+}
+
+a:link, a:visited{
+    color: white;
+    text-decoration: none;
+}
+
+.navbar-item{    
+    transition: opacity 0.2s;
+}
+
+.navbar-item:hover{
+    border-radius: 10px;
+    opacity: 0.6;
+}
+
+/* -----header/introduction----- */
+.header{
+    margin-top: 50px; 
+    border: none;
+    box-shadow:3px 3px 10px rgba(0, 0, 0, 0.8);
+    padding: 20px;       
+    height: 600px; /* 500px last format */
+    
+    background-image: url('images/seb/newbglast.png');   
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    width: 100%; /*or 1863px      */
+}
+
+.myinfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+    width: 50%;
+    margin-left: 50px; 
+    margin-top: 10px;   
+}
+
+.myinfo p{
+    margin-bottom: 2px;
+    margin-top: 5px;
+}
+
+.myname{
+    font-size: 40px; 
+    font-weight: bold; 
+    color: white;
+}
+
+.mycourse{
+    font-size: 25px; 
+    color: white;
+}
+
+.PL{
+    color: gray; 
+    font-size: 25px;
+}
+
+.try{
+    color: #fff;
+    text-shadow: 0 0 5px #fff,
+    0 0 1px #fff, 
+    0 0 3px #0073e6,
+    0 0 4px #0073e6,
+    0 0 5px #0073e6,
+    0 0 6px #1f7ad4,
+    0 0 7px #0073e6;
+}
+
+.myinfo img{
+    margin-bottom: 5px;
+}
+
+/* ----objectives---- */
+.objectives{
+    display: flex;  
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;   
+    margin-top: 50px;    
+    
+    width: 1200px;
+    padding: 25px;
+    font-size: 25px;
+}
+
+.objective-title{
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.objective-content{
+    line-height: 35px;
+    text-align: justify;
+}
+
+/* -----about----- */
+#about{
+    display: flex;     
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+    width: 1200px;
+    scroll-margin-top: 100px;   
+}
+
+/* aboutdiv container only */
+.aboutdiv{
+    padding: 10px;
+    width: 550px;
+    font-size: 25px;
+}
+
+.aboutme-description{
+    margin-top: 10px;
+    line-height: 30px;
+    
+}
+
+.forjustify{
+    text-align: justify;
+}
+/* infodiv container only */
+.infodiv{
+    padding: 10px;
+    width: 550px;
+    font-size: 25px;
+}
+
+.row div{
+    display: inline-block;  
+    margin-top: 10px;  
+    margin-right: 50px;
+}
+
+.first-column-row{
+    width: 100px;
+}
+
+.second-column-row{
+    width: 300px;
+}
+
+/* ------skills----- */
+#skills{
+    width: 1200px;
+    margin-bottom: 50px;  
+    scroll-margin-top: 100px;  
+}
+
+.container {
+    width: 100%; /* Full width */
+    background-color: #ddd; /* Grey background */
+    border-radius: 20px;
+}
+  
+.skill {
+    text-align: center; /* center the percent text */    
+    padding: 4px 4px;    
+    color: white; /* White text color */
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+#skills p{
+    font-size: 20px;
+    font-weight: bold;
+}
+  
+.html {width: 50%; background-color: rgb(101, 111, 245);} 
+.css {width: 50%; background-color: rgb(101, 111, 245);} 
+.js {width: 25%; background-color: rgb(101, 111, 245);} 
+.java {width: 70%; background-color: rgb(101, 111, 245);} 
+.python {width: 50%; background-color: rgb(101, 111, 245);} 
+.ms {width: 90%; background-color: rgb(101, 111, 245);} 
+.commu {width: 90%; background-color: rgb(101, 111, 245);} 
+
+/* -----education----- */
+#education{
+    width: 1200px;
+    margin-bottom: 50px;
+    font-size: 20px;
+    scroll-margin-top: 100px;
+}
+
+.educ-container{
+    display: flex;  
+    margin-bottom: 15px;    
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.first-box, .third-box {
+    background-color: green;
+    color: white;
+    padding: 10px;
+    width: 250px;
+    flex: 1;      
+}
+
+.second-box {
+    background-color: white;
+    color: green;
+    padding: 10px;
+    width: 250px;
+    text-align: justify;
+    text-justify: inter-word;
+    flex: 2;    
+}
+
+.first-box{
+    border-radius: 20px 0 0 20px;
+}
+
+.third-box{
+    border-radius: 0 20px 20px 0;
+} 
+
+.flis, .qca, .pup {
+    object-fit: cover;
+    object-position: center;
+    border-radius: 150px;
+}
+
+/* INTERESTS */
+#interests{
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;  
+    width: 1200px;
+    margin-bottom: 50px; 
+    scroll-margin-top: 100px;
+}
+
+#interests h1{
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.pic-container{
+    display: flex;  
+    margin-top: 15px;  
+}
+
+.int-innerdiv{    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    margin-top: 8px;
+    padding-bottom: 5px;
+
+    position: relative;
+}
+
+.myint{
+    transition: transform 0.2s;
+    cursor: pointer;    
+}
+
+.myint:hover{    
+    transform: scale(1.1);
+}
+
+.tooltip{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    padding: 11px;
+    border-radius: 10px;
+    font-size: 25px;
+    bottom: -70px;
+    box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.8);
+    opacity: 0;
+    transition: opacity 0.8s;
+
+    pointer-events: none;
+}
+
+.int-innerdiv:hover .tooltip{
+    opacity: 1;
+}
+
+#interests img{
+    object-fit: cover;
+    object-position: center;
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+/* -----contacts----- */
+#contacts{
+    width: 1200px;
+    margin-bottom: 20px;    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    scroll-margin-top: 100px;
+}
+
+#social {
+    margin: 20px 10px;
+    width: 800px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+  
+.smGlobalBtn{ /* global button class */
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    box-shadow: 0 2px 2px #999;
+    padding: 0px;
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+    font-size: 25px;
+    font-weight: normal;
+    line-height: 2em;
+    border-radius: 25px;
+    -moz-border-radius:25px;
+    -webkit-border-radius:25px;
+}
+  
+/* -----socmed buttons----- */
+.facebookBtn,.twitterBtn, .instagramBtn{
+    background: rgb(55,140,63);
+    transition: background 0.5s, color 0.5s, transform 0.2s;
+}
+    
+.facebookBtn:hover, .twitterBtn:hover, .instagramBtn:hover{
+    color: rgb(55,140,63);
+    background: #fff;     
+    transform: scale(1.5);
+}
+
+.facebookBtn:before{ /* use :before to add the relevant icons */
+    font-family: "FontAwesome";
+    content: "\f09a"; /* add facebook icon */
+}
+
+.twitterBtn:before{
+    font-family: "FontAwesome";
+    content: "\f099"; /* add twitter icon */
+}
+
+.instagramBtn:before{
+    font-family: "FontAwesome";
+    content: "\f16d"; /* add instagram icon */
+}
+
+#about, #skills {
+    scroll-margin-top: 100px;
+}
+
+
+
+  
+  
+  
+
+
+
+

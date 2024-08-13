@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:400,500,600,700&display=swap');
+
+*{
+  font-family: 'Work Sans', sans-serif;
+}
+
+body {  
+    background-image: url(images/blue-gradient.jpg);
+    color: #fff;
+}
+  
+  h2 {
+    font-size: 36px;
+    text-align: center;
+    margin-top: 50px;
+    color: #fff;
+  }
+  
+  form {
+    width: 50%;
+    margin: 0 auto;
+    background-color: #fff;
+    color: #0a1b25;
+    padding: 20px;
+    border: 2px solid #0a1b25;
+    border-radius: 10px;
+  }
+  
+  legend {
+    font-weight: bold;
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #0a1b25;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 22px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    color: #0a1b25;
+  }
+  
+  input[type="submit"] {
+    background-image: url(images/blue-gradient.jpg);
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 24px;
+    display: block;
+    margin: 0 auto;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #1e90ff;
+  } 
+
+  input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    color: #0a1b25;
+  }
+
+  
+  
+  
+  
+  

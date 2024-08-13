@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">    
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Budget Buddy - About Us</title>
+        <link rel="icon" href="images/whitelogo.png">
+
+        <link rel="icon" type="images/x-icon" href="styles/images/whitelogo.png">
+
+        <style>
+            @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&amp;display=swap");
+            
+            * {
+                font-family: "Poppins", sans-serif;
+                box-sizing: border-box;
+            }
+
+            body {
+                background: url(styles/images/bg1.jpeg);
+                padding: 0;
+                margin: 0;
+            }
+        
+            .container {
+                background-color: #fff;
+                text-align: center;
+                max-width: 800px;
+                margin: 50px auto;
+                padding: 20px;
+                border-radius: 10px;
+            }
+            
+            header {
+                background-color: #0a1b25;
+                color: #fff;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100px;
+            }
+
+            header h1 {
+                font-size: 36px;
+                font-weight: bold;
+                margin: 0;
+            }
+         
+            .story {
+                margin-top: 50px;
+            }
+
+            .story h2 {
+                margin-bottom: 20px;
+                font-size: 24px;
+                font-weight: bold;
+            }
+
+            .story p {
+                font-size: 18px;
+                line-height: 1.5;
+                text-align: justify;
+                padding: 20px;
+            }
+           
+            .jsteam {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-wrap: wrap;
+                margin-top: 50px;
+            }
+
+            .jsteam .dev {
+                width: 220px;
+                margin: 40px;
+                text-align: center;
+            }
+
+            .jsteam .dev img {
+                width: 100%;
+                border-radius: 50%;
+                margin-bottom: 20px;
+            }
+
+            .jsteam .dev h3 {
+                font-size: 20px;
+                font-weight: bold;
+                margin-bottom: 5px;
+            }
+
+            .jsteam .dev p {
+                font-size: 16px;
+                margin-bottom: 0;              
+            }
+        
+            @media only screen and (max-width: 768px) {
+                header h1 {
+                    font-size: 28px;
+                }
+                .container {
+                    margin: 20px;
+                    padding: 10px;
+                }
+                .story p {
+                    font-size: 16px;
+                    padding: 10px;
+                }
+                .jsteam {
+                    margin-top: 20px;
+                }
+                .jsteam .dev {
+                    width: 100%;
+                    margin: 20px 0;
+                }
+            }
+                
+            @media only screen and (max-width: 480px) {
+                header h1 {
+                    font-size: 24px;
+                }
+                .story h2 {
+                    font-size: 20px;
+                }
+                .story p {
+                    font-size: 14px;
+                    padding: 10px;
+                }
+                .jsteam .dev {
+                    width: 100%;
+                    margin: 10px 0;
+                }
+            }
+        </style>       
+    </head>
+
+    <body>
+        <header>
+            <h1>ABOUT US</h1>
+        </header>
+
+        <div class="container">
+            <div class="story">
+                <h2>Our Story</h2>
+                <p>
+                    We founded our project, the Budget Buddy Planner system, out of a love for technology and 
+                    finance. We are committed to providing excellent services that are tailored to each client's 
+                    specific needs. Everything we do is driven by our dedication to excellence.
+                    <br><br>
+                    Two students majoring in computer engineering make up our team. 
+                    Our team collaborates to make sure that every part of our project runs smoothly. 
+                    Our mission is to ensure that everyone on our team feels respected and appreciated while also fostering a happy and encouraging work environment.
+                    <br><br>
+                    User's satisfaction is the main priority in whatever we do. We want to offer a customized experience to each and every one of our users since we recognize that user's needs are distinctive and constantly changing. We hope that our actions will improve the world and encourage others to follow. 
+                    We believe our modest act can have a great impact in the community.
+                </p>
+            </div>
+                    
+            <h2>The Team</h2>
+
+            <div class="jsteam">
+                <div class="dev">
+                    <a href="jdpwebsite.html" target="_blank"><img src="styles/images/jdp.jpg" alt="Dev Team 1" ></a>
+                    <h3>Jebe Dela Peña</h3>
+                    <p>Front End Developer</p>
+                </div>
+            
+                <div class="dev">
+                    <a href="resume.html" target="_blank"><img src="styles/images/seb.jpg" alt="Dev Team 2"></a>
+                    <h3>Sebastian Icarus Joson</h3>
+                    <p>Back End Developer</p>
+                </div>   
+            </div>
+        </div>
+    </body>
+</html>
+

@@ -1,0 +1,413 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&amp;display=swap");
+
+*{
+    font-family: "Poppins", sans-serif;
+    margin: 0px; 
+    padding: 0px;
+}
+
+.headline{
+  background: #0a1b25;
+  background-size: 625px;
+}
+
+.headline-img{
+  float: right; 
+  width: 70%; 
+  margin-top: 9.5px; 
+  margin-right: 20%;
+}
+
+.nav-name{
+  float: right;
+  color: #fff; 
+  padding: 25px; 
+  font-weight: bolder; 
+}
+
+.nav{
+  font-weight: bolder;
+  margin: 0 auto; 
+  width: 550px; 
+}
+
+.nav li{
+  float: left; 
+  padding: 29.5px 25px; 
+  list-style: none;
+}
+
+.nav li a{
+  font-size: large;
+  text-decoration: none; 
+  color: #fff; 
+}
+
+.sec-a{
+  float: left;
+  width: 25%; 
+}
+
+.sec-b{
+  float: left;
+  width: 33.3%; 
+}
+
+.sec-c{
+  float: left; 
+  width: 30%; 
+  margin-left: 90px;
+}
+
+.sec-d{
+  float: left;
+  width: 50%; 
+}
+
+.sec-cont{
+  padding-top: 60px; 
+  padding-left: 100px;
+}
+
+.sec-colored{
+  background: #0a1b25;
+  background-size: 625px;
+}
+
+.sec-4{
+  font-size: 14px;
+  letter-spacing: 2px; 
+  line-height: 20px;
+}
+
+.holder{
+  width: 1200px; 
+  margin: 0 auto; 
+  max-width: 100%;
+}
+
+.clear-sec{clear: both;}
+
+.title{
+  font-size: 58px; 
+  color: #fff;
+}
+
+.title-2{
+  color: #0a1b25;
+  text-align: center; 
+  font-size: 31px;
+}
+
+.title-3{
+  font-weight: normal;
+}
+
+.title-4{
+  color: #0a1b25;;
+  font-size: 39px; 
+}
+
+.btn{  
+  float: right;  
+	padding: 12px 35px;
+  background: #4a75ee;
+  color: #fff;
+  border: none;
+  margin-bottom: 30px;
+  margin-top: 25px;
+  cursor: pointer;
+  font-weight: bold;
+  float: left;
+}
+
+.icon{
+  padding: 10px;
+  width: 30px;
+  border-radius: 10px;
+	margin-right: 30px;
+  background: #b5b5b561;
+}
+
+.icon1{
+  color: #fff;
+	font-size: 30px!important;
+  padding: 15px;
+  border-radius: 29px;
+  margin-top: 50px;
+  background: #0a1b25;
+}
+
+.desc-1{
+  width: 550px;
+	color: #fff;
+  letter-spacing: 1px;
+  line-height: 22px;
+  font-size: 15px;
+  font-weight: lighter;
+  margin-top: 15px;
+}
+
+.desc-2{
+  text-align: center; 
+  margin-bottom: 50px; 
+  font-size: 14px;
+}
+
+
+.desc-3{
+  font-size: 13px; 
+  line-height: 18px; 
+  margin-bottom: 50px;
+  letter-spacing: 1px; 
+}
+
+.box{
+  order: 1px solid #d1cbcb; 
+  width: 230px; 
+  padding: 25px; 
+  margin: 0 auto;
+  text-align: center;
+  cursor: pointer;
+}
+ 
+.active{
+  color: #fff;
+  background: #0a1b25;
+}
+
+.active .icon1{
+  color: #0a1b25;
+  background: #fff; 
+}
+
+.fixed {
+  background: #0a1b25;
+  position: fixed;
+  top:0; 
+  left:0;
+  width: 100%; 
+}
+
+.com-p{
+  background: #fff; 
+  padding: 50px 100px;
+}
+
+.sicon-1{
+  color: #fff; 
+  margin-right: 20px;
+}
+
+
+::-webkit-scrollbar {
+  width: 10px;
+  background: #fff;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  
+}
+
+::-webkit-scrollbar-thumb {
+  background: #4a75ee;
+
+}
+
+.foot-sec{
+  margin-bottom: 50px;
+}
+
+.foot-sec li{
+  list-style: none; 
+  padding: 10px;
+}
+
+
+.foot-sec li a{
+  font-size: 16px;
+  text-decoration: none; 
+  color: #fff; 
+}
+
+.last-sec{
+  font-size: 16px;
+  text-align: center; 
+  padding-top: 50px; 
+  color: #fff;
+}
+
+/* buttons */
+button{
+  transition: opacity 0.2s ease;
+}
+
+button:hover{
+  opacity: 0.8;
+}
+
+button:active{
+  opacity: 0.5;
+}
+
+
+/* media queries */
+@media only screen and (max-width: 768px) {
+  /* Add responsive styles here */
+  .nav {
+    display: none;
+  }
+  .btn {
+    font-size: 14px;
+  }
+  .headline-img {
+    width: 100%;
+    height: auto;
+  }
+
+  .container {
+    background-color: #333;
+    padding: 40px;
+  }
+
+  .title {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #fff;
+  }
+
+  .subtitle {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #fff;
+  }
+}
+
+/* Media queries for tablet screens */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  /* Adjust the font size of the headline */
+  .title {
+    font-size: 2.5rem;
+  }
+
+  /* Adjust the font size of the section titles */
+  .title-2, .title-3 {
+    font-size: 2rem;
+  }
+
+  /* Adjust the font size of the section descriptions */
+  .desc-1, .desc-2, .desc-3 {
+    font-size: 1.25rem;
+  }
+
+  /* Adjust the width of the logo */
+  .nav-name {
+    width: 150px;
+  }
+
+  /* Adjust the size of the navigation links */
+  .nav li a {
+    font-size: 1rem;
+  }
+
+  /* Adjust the layout of the headline */
+  .sec-d {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+  }
+
+  /* Adjust the size of the headline image */
+  .headline-img {
+    width: 90%;
+    height: auto;
+  }
+
+  /* Adjust the layout of the benefit boxes */
+  .sec-b {
+    flex-basis: 50%;
+    padding: 1rem;
+  }
+
+  /* Adjust the font size of the benefit box titles */
+  .title-3 {
+    font-size: 1.5rem;
+  }
+
+  /* Adjust the font size of the benefit box descriptions */
+  .desc-3 {
+    font-size: 1rem;
+  }
+
+  /* Adjust the layout of the sign up section */
+  .sec-colored {
+    padding: 2rem;
+  }
+}
+
+/* Media queries for mobile screens */
+@media only screen and (max-width: 767px) {
+  /* Adjust the font size of the headline */
+  .title {
+    font-size: 2rem;
+  }
+
+  /* Adjust the font size of the section titles */
+  .title-2, .title-3 {
+    font-size: 1.5rem;
+  }
+
+  /* Adjust the font size of the section descriptions */
+  .desc-1, .desc-2, .desc-3 {
+    font-size: 1rem;
+  }
+
+  /* Adjust the width of the logo */
+  .nav-name {
+    width: 100px;
+  }
+
+  /* Adjust the size of the navigation links */
+  .nav li a {
+    font-size: 0.75rem;
+  }
+
+  /* Adjust the layout of the headline */
+  .sec-d {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+  }
+
+  /* Adjust the size of the headline image */
+  .headline-img {
+    width: 100%;
+    height: auto;
+  }
+
+  /* Adjust the layout of the benefit boxes */
+  .sec-b {
+    flex-basis: 100%;
+    padding: 1rem;
+  }
+
+  /* Adjust the font size of the benefit box titles */
+  .title-3 {
+    font-size: 1.25rem;
+  }
+
+  /* Adjust the font size of the benefit box descriptions */
+  .desc-3 {
+    font-size: 0.875rem;
+  }
+
+  /* Adjust the layout of the sign up section */
+  .sec-colored {
+    padding: 1rem;
+  }
+}
